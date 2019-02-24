@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15823" started-at="2017-11-23T12:33:57Z" finished-at="2017-11-23T12:34:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15823" started-at="2017-11-23T12:33:57Z" finished-at="2017-11-23T12:34:12Z">
+      <class name="Dynamic_launch_browser">
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:Dynamic_launch_browser@482f8f11]" name="launch" duration-ms="10223" started-at="2017-11-23T18:03:57Z" data-provider="getData" finished-at="2017-11-23T18:04:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mozilla]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String, java.lang.String)[pri:0, instance:Dynamic_launch_browser@482f8f11]" name="launch" duration-ms="5565" started-at="2017-11-23T18:04:07Z" data-provider="getData" finished-at="2017-11-23T18:04:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- Dynamic_launch_browser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
